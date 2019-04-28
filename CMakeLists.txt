@@ -51,7 +51,7 @@ IF( CMAKE_SYSTEM_NAME MATCHES "Windows" )
 				DESTINATION ${ConfigPackageLocation} )
 		INSTALL( FILES "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}/${PROJECT_NAME}Config.cmake" DESTINATION ${ConfigPackageLocation} COMPONENT Devel )
 
-		ADD_SUBDIRECTORY( samples )
+		#ADD_SUBDIRECTORY( samples )
 		
 	ELSE()
 		MESSAGE("XInput not found")
